@@ -175,7 +175,7 @@ This line that we added is telling our application that anytime we receive an HT
 
 Go back to your browser and refresh the page - you should now be seeing an error telling you that you have a `Routing Error`; specifically, that you have an `uninitialized constant WelcomeController`.  This is a good thing; at this point, we have told our application which controller action to perform when this request is received, but we haven't created that controller (or the action) yet.  So, let's go do that.
 
-Open your `app/controllers` directory and create a file inside called `welcome_controller.rb`.  In that file, add the following code (remember that it is *strongly* recommended that you not copy/paste, but practice typing out this code).
+Open your `app/controllers` directory and create a file inside called `welcome_controller.rb`.  In that file, add the following code (remember that it is *strongly* recommended that you not copy/paste, but practice typing out this code).w
 
 ```ruby
 # app/controllers/welcome_controller.rb
